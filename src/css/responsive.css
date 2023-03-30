@@ -1,0 +1,27 @@
+@media (max-width: 820px) {
+    .slide {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .imagens-slider .conteudo {
+
+        width: 280px;
+        position: absolute;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .imagens-slider .conteudo {
+        width: 70vw;
+        padding: 20px 20px;
+    }
+    .seta-voltar .imagem-seta, .seta-avancar .imagem-seta {
+        height: 15px;
+        width: 15px;
+    }
+
+}
